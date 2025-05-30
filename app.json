@@ -8,7 +8,7 @@
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "IK~DFBkEbBD#M_GDve_hQvSHCU1cMVf51F1xWgGeHQTc6u0hFozgcqo",
       "required": true,
       "value": ""
     },  
@@ -35,8 +35,8 @@
     
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
-      "required": false,
-      "value": "false"  
+      "required": true,
+      "value": "true"  
     },    
    
     "AUTO_REPLY": {
@@ -78,15 +78,15 @@
      }, 
     
     "OWNER_NAME": {
-      "description": "Type Bot Owner Name.",
+      "description": "THE LEGEND NAWAB",
       "required": false,
       "value": "Jᴀᴡᴀᴅ TᴇᴄʜX"
 }, 
 
     "OWNER_NUMBER": {
-      "description": "put the owner number for bot.",
+      "description": "923140745698",
       "required": false,
-      "value": "92310344XXXX"
+      "value": "923140745698"
 
     }, 
 
