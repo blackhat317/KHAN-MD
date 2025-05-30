@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "IK~DFBkEbBD#M_GDve_hQvSHCU1cMVf51F1xWgGeHQTc6u0hFozgcqo",
+SESSION_ID: process.env.SESSION_ID || "IK~vJonBDrJ#Cur5dPWpTbQyJOCTWbQLDzfexFqi8CBLGRjZWjDcIxo",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -21,7 +21,7 @@ ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
-MENTION_REPLY: process.env.MENTION_REPLY || "false",
+MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/7zfdcq.jpg",
 // add custom menu and mention reply image url
@@ -35,7 +35,7 @@ CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
-DELETE_LINKS: process.env.DELETE_LINKS || "false",
+DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "92342758XXXX",
 // add your bot owner number
@@ -49,9 +49,9 @@ LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *KHAN-MD*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
-AUTO_REACT: process.env.AUTO_REACT || "false",
+AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
-ANTI_BAD: process.env.ANTI_BAD || "false",
+ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
@@ -59,9 +59,9 @@ ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
