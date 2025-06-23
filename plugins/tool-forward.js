@@ -1,4 +1,4 @@
-// Jawad TechX - KHAN MD 
+// NAWAB XD - NAWAB MD 
 // Dont Remove Credit From File 
 
 const { cmd } = require("../command");
@@ -6,7 +6,7 @@ const { cmd } = require("../command");
 // Safety Configuration
 const SAFETY = {
   MAX_JIDS: 20,
-  BASE_DELAY: 2000,  // jawad on top 🔝
+  BASE_DELAY: 2000,  // NAWAB on top 🔝
   EXTRA_DELAY: 4000,  // huh don't copy mine file 
 };
 
