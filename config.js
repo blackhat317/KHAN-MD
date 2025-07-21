@@ -1,11 +1,11 @@
-const fs = require('fs');
+uconst fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "IK~wXkGzQ7J#U7gPsz1f4ckhw_RcH-KFkjwR6yIdqmdrsLiCirlmPiY",
+SESSION_ID: process.env.SESSION_ID || "IK~kGERhBqY#Eohpxp8KAWvNQ4yGYF0j-C_wXgSLrclHzSK9Uy1m6DQ",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
