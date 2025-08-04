@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "IK~4D9XTbjD#K7Bp3ZLr2JFpguXWNENmasnzWid0wT2GBvHnpsBokJs",
+SESSION_ID: process.env.SESSION_ID || "IK~UHU1xJKQ#pf_AuPRBSzFXpbruGsrtlatN6TUb10-e52J4QIElhv0",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -37,7 +37,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923276811525",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923702897248",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "𝐓𝐇𝐄 QUEEN INXIDE",
 // add bot owner name
@@ -53,7 +53,7 @@ AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
